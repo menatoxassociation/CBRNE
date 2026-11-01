@@ -1,0 +1,451 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What is hazmat? CBRNE</title>
+<meta name="description" content="What is hazmat? Five letters every emergency department should be able to expand without thinking. MENATOX Saudi Arabia National Chapter.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F1F3EF;
+  --paper-2:#E5EAE3;
+  --card:#FFFFFF;
+  --ink:#0F2A24;
+  --ink-soft:#47584F;
+  --drape:#17453C;
+  --drape-2:#2C6355;
+  --artery:#9E1B2F;
+  --artery-soft:#FBEDEE;
+  --amber:#B07C04;
+  --amber-soft:#FBF2DC;
+  --ice:#2A6484;
+  --ice-soft:#E9F1F5;
+  --line:#CBD4C9;
+  --line-soft:#E0E6DE;
+  --radius:3px;
+  --sans:'Archivo',system-ui,-apple-system,sans-serif;
+  --serif:'Spectral',Georgia,serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--serif);font-size:18px;line-height:1.7;
+  -webkit-text-size-adjust:100%;
+}
+h1,h2,h3,h4,.ui,button{font-family:var(--sans)}
+p{margin:0 0 1.1em}
+a{color:var(--drape-2)}
+strong{font-weight:600}
+:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.col{max-width:66ch}
+
+/* ---------- hero ---------- */
+.hero{background:var(--drape);color:#F0F5F2;padding:56px 0 44px;position:relative;overflow:hidden}
+.kicker{font-family:var(--sans);font-size:13.5px;letter-spacing:.06em;color:#8FBFB0;margin:0 0 18px;text-transform:uppercase}
+.hero h1{font-size:clamp(38px,7vw,72px);line-height:1.02;margin:0 0 20px;font-weight:700;letter-spacing:-.02em;max-width:14ch}
+.hero .stand{font-size:clamp(17px,2.4vw,21px);max-width:46ch;color:#CADED6;margin:0 0 30px}
+.letters{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 30px}
+.letters a{
+  display:flex;align-items:center;justify-content:center;
+  width:clamp(52px,12vw,84px);height:clamp(52px,12vw,84px);
+  border:1.5px solid #4B8476;color:#F0F5F2;text-decoration:none;
+  font-family:var(--sans);font-weight:800;font-size:clamp(26px,6vw,44px);border-radius:var(--radius);
+  transition:background .15s,color .15s,border-color .15s;
+}
+.letters a:hover{background:#F0F5F2;color:var(--drape);border-color:#F0F5F2}
+.byline{font-family:var(--sans);font-size:14px;color:#9CC7B8;border-top:1px solid #2F6355;padding-top:16px}
+
+/* ---------- chip nav ---------- */
+.chipbar{
+  display:flex;gap:8px;overflow-x:auto;padding:11px 20px;background:var(--paper-2);
+  border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50;-webkit-overflow-scrolling:touch;
+}
+.chipbar a{
+  flex:0 0 auto;font-family:var(--sans);font-size:13.5px;text-decoration:none;color:var(--ink-soft);
+  padding:5px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);
+}
+.chipbar a:hover{color:var(--ink);border-color:var(--drape-2)}
+
+/* ---------- sections ---------- */
+section{padding:56px 0 8px}
+.sec-num{font-family:var(--sans);font-size:13px;letter-spacing:.08em;color:var(--artery);font-weight:600;text-transform:uppercase;margin:0 0 8px}
+h2{font-size:clamp(26px,4vw,38px);line-height:1.12;margin:0 0 18px;letter-spacing:-.01em}
+h3{font-size:20px;margin:0 0 10px}
+.lede{font-size:21px;line-height:1.55;color:var(--ink)}
+.pull{
+  border-left:4px solid var(--artery);background:var(--card);padding:18px 22px;margin:24px 0;
+  font-family:var(--sans);font-size:19px;font-weight:600;line-height:1.45;
+}
+.note{background:var(--ice-soft);border-left:4px solid var(--ice);padding:14px 18px;font-family:var(--sans);font-size:15.5px;line-height:1.6;margin:20px 0}
+.mini{font-size:13px;color:var(--ink-soft);font-family:var(--sans)}
+
+/* ---------- definition tiles ---------- */
+.defgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:22px 0}
+.def{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;font-family:var(--sans)}
+.def b{display:block;font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:6px;font-weight:600}
+.def span{font-size:17px;font-weight:600}
+
+/* ---------- CBRNE explorer ---------- */
+.tool{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);margin:26px 0;overflow:hidden}
+.tool-head{background:var(--drape);color:#EAF2EE;padding:12px 18px;font-family:var(--sans);font-size:13.5px;letter-spacing:.04em;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.tool-head b{color:#fff;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.tabs{display:grid;grid-template-columns:repeat(5,1fr);border-bottom:1px solid var(--line)}
+.tabs button{
+  background:var(--paper);border:0;border-right:1px solid var(--line);padding:16px 4px 12px;cursor:pointer;
+  color:var(--ink-soft);display:flex;flex-direction:column;align-items:center;gap:2px;
+}
+.tabs button:last-child{border-right:0}
+.tabs button .L{font-size:clamp(28px,6vw,40px);font-weight:800;line-height:1}
+.tabs button .w{font-size:12px;letter-spacing:.02em}
+.tabs button[aria-selected=true]{background:var(--card);color:var(--artery);box-shadow:inset 0 -3px 0 var(--artery)}
+.panel{padding:24px 22px 26px;display:grid;gap:22px}
+@media(min-width:760px){.panel{grid-template-columns:150px 1fr;align-items:start}}
+.panel .big{font-family:var(--sans);font-weight:800;font-size:120px;line-height:.85;color:var(--drape)}
+.panel .word{font-family:var(--sans);font-weight:700;font-size:24px;margin:0 0 10px}
+.panel .rule{
+  margin-top:16px;padding:14px 16px;background:var(--artery-soft);border-left:4px solid var(--artery);
+  font-family:var(--sans);font-weight:600;font-size:17px;line-height:1.45;
+}
+.panel .rule small{display:block;font-weight:600;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--artery);margin-bottom:4px}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.facts span{font-family:var(--sans);font-size:13px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:var(--paper)}
+.stepper{display:flex;justify-content:space-between;padding:0 22px 18px;font-family:var(--sans)}
+.stepper button{background:none;border:1px solid var(--line);border-radius:var(--radius);padding:7px 14px;cursor:pointer;color:var(--ink);font-size:14px}
+.stepper button:hover{border-color:var(--drape-2)}
+
+/* ---------- exposed vs contaminated ---------- */
+.versus{display:grid;gap:12px;margin:22px 0}
+@media(min-width:700px){.versus{grid-template-columns:1fr 1fr}}
+.vs{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--ice);border-radius:var(--radius);padding:18px 20px;font-family:var(--sans);font-size:15.5px;line-height:1.6}
+.vs.c{border-top-color:var(--amber)}
+.vs h3{font-size:19px;margin-bottom:8px}
+.tds{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:18px 0}
+.td{background:var(--drape);color:#EAF2EE;border-radius:var(--radius);padding:16px 14px;font-family:var(--sans);text-align:center}
+.td b{display:block;font-size:19px;color:#fff;margin-bottom:2px}
+.td span{font-size:13px;color:#9CC7B8}
+
+/* ---------- door checklist ---------- */
+.door{counter-reset:s;list-style:none;margin:22px 0;padding:0;display:grid;gap:10px}
+.door li{background:var(--card);border:1px solid var(--line);border-radius:var(--radius)}
+.door button{
+  width:100%;text-align:left;background:none;border:0;padding:16px 18px;cursor:pointer;
+  display:flex;align-items:center;gap:16px;color:var(--ink);font-size:19px;font-weight:700;
+}
+.door button::before{
+  counter-increment:s;content:counter(s);flex:0 0 36px;height:36px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;background:var(--paper-2);color:var(--drape);font-size:16px;
+}
+.door li.done button::before{content:"\2713";background:var(--drape);color:#fff}
+.door li.done{border-color:var(--drape-2)}
+.door .why{display:none;padding:0 18px 16px 70px;font-family:var(--sans);font-size:15.5px;line-height:1.6;color:var(--ink-soft)}
+.door li.open .why{display:block}
+.progress{height:6px;background:var(--line-soft);border-radius:3px;overflow:hidden;margin-top:6px}
+.progress i{display:block;height:100%;width:0;background:var(--drape);transition:width .25s}
+.reset{font-family:var(--sans);font-size:13px;background:none;border:0;color:var(--drape-2);cursor:pointer;text-decoration:underline;padding:6px 0}
+
+/* ---------- quiz ---------- */
+.q{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;margin:16px 0}
+.q .stem{margin:0 0 14px}
+.q .tag{font-family:var(--sans);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:6px;font-weight:600}
+.q .opts{display:grid;gap:8px}
+.q button.opt{
+  text-align:left;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);
+  padding:11px 14px;cursor:pointer;font-size:15.5px;color:var(--ink);line-height:1.4;
+}
+.q button.opt:hover:not([disabled]){border-color:var(--drape-2)}
+.q button.opt[disabled]{cursor:default}
+.q button.opt.right{border-color:var(--drape);background:#E9F2EE;font-weight:600}
+.q button.opt.wrong{border-color:var(--artery);background:var(--artery-soft)}
+.q .exp{display:none;font-family:var(--sans);font-size:15px;line-height:1.6;margin-top:12px;padding-top:12px;border-top:1px solid var(--line-soft)}
+.q .exp.show{display:block}
+.score{font-family:var(--sans);font-size:15px;font-weight:600;margin-top:8px}
+
+/* ---------- call box + footer ---------- */
+.call{background:var(--artery);color:#fff;border-radius:var(--radius);padding:22px 24px;margin:34px 0 0;font-family:var(--sans);font-size:19px;font-weight:600;line-height:1.45}
+.call small{display:block;font-weight:500;font-size:14.5px;opacity:.9;margin-top:6px}
+footer{background:var(--drape);color:#CADED6;margin-top:60px;padding:38px 0;font-family:var(--sans);font-size:14px;line-height:1.6}
+footer strong{color:#fff}
+footer a{color:#CFE3DB}
+
+@media(max-width:520px){
+  body{font-size:17px}
+  .panel .big{font-size:84px}
+  .door .why{padding-left:18px}
+  .tds{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important;animation:none!important}
+}
+@media print{
+  .chipbar,.stepper,.reset{display:none}
+  body{background:#fff;font-size:12pt}
+  .hero{background:#fff;color:#000}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">MENATOX Saudi Arabia National Chapter &nbsp;&middot;&nbsp; Hazmat primer</p>
+    <h1>What is hazmat?</h1>
+    <p class="stand">Five letters every emergency department should be able to expand without thinking.</p>
+    <nav class="letters" aria-label="Jump to a letter">
+      <a href="#cbrne" data-go="0">C</a><a href="#cbrne" data-go="1">B</a><a href="#cbrne" data-go="2">R</a><a href="#cbrne" data-go="3">N</a><a href="#cbrne" data-go="4">E</a>
+    </nav>
+    <div class="byline">Prepared by Dr Rwan Eskindrani</div>
+  </div>
+</header>
+
+<nav class="chipbar" aria-label="Sections">
+  <a href="#hazmat">Hazmat</a>
+  <a href="#cbrne">The five letters</a>
+  <a href="#exposed">Exposed vs contaminated</a>
+  <a href="#door">The patient is the scene</a>
+  <a href="#check">Check yourself</a>
+</nav>
+
+<main class="wrap">
+
+  <!-- 1 -->
+  <section id="hazmat">
+    <p class="sec-num">01 &nbsp;Definition</p>
+    <h2>Hazardous materials</h2>
+    <div class="col">
+      <p class="lede">Anything that injures people, property or the environment when it is released, by accident or on purpose.</p>
+      <p>Emergency planners sort it into five letters. The categories differ in how fast they act, how patients arrive and who leads the response, but they end at the same door: yours.</p>
+    </div>
+    <div class="defgrid">
+      <div class="def"><b>What it harms</b><span>People, property, environment</span></div>
+      <div class="def"><b>How it is released</b><span>By accident or on purpose</span></div>
+      <div class="def"><b>How it is sorted</b><span>C &middot; B &middot; R &middot; N &middot; E</span></div>
+    </div>
+  </section>
+
+  <!-- 2 -->
+  <section id="cbrne">
+    <p class="sec-num">02 &nbsp;The five letters</p>
+    <h2>Expand CBRNE without thinking</h2>
+    <p class="col">Tap a letter. Each one carries a single bedside rule worth memorising.</p>
+
+    <div class="tool" id="explorer">
+      <div class="tool-head"><b>CBRNE explorer</b><span id="pos">1 of 5</span></div>
+      <div class="tabs" role="tablist" aria-label="CBRNE categories"></div>
+      <div class="panel" role="tabpanel" aria-live="polite">
+        <div class="big" id="pBig">C</div>
+        <div>
+          <p class="word" id="pWord"></p>
+          <p id="pText" style="margin:0"></p>
+          <div class="facts" id="pFacts"></div>
+          <div class="rule"><small>At the bedside</small><span id="pRule"></span></div>
+        </div>
+      </div>
+      <div class="stepper">
+        <button type="button" id="prev">&larr; Previous</button>
+        <button type="button" id="next">Next &rarr;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 -->
+  <section id="exposed">
+    <p class="sec-num">03 &nbsp;Radiological</p>
+    <h2>Exposed is not contaminated</h2>
+    <p class="col">The distinction decides whether a radiation casualty needs decontamination before entering your department, and whether staff are at any risk from the patient.</p>
+    <div class="versus">
+      <div class="vs">
+        <h3>Exposed</h3>
+        The patient was irradiated by a source but carries no radioactive material. Once away from the source, the patient poses no radiation hazard to staff. Treat like any other patient.
+      </div>
+      <div class="vs c">
+        <h3>Contaminated</h3>
+        Radioactive material is on the skin or clothing, or inside the body. Decontaminate, starting with removing clothing, and contain what comes off. Life-threatening injuries still come first.
+      </div>
+    </div>
+    <p class="col" style="margin-top:8px"><strong>Protection from any source rests on three words:</strong></p>
+    <div class="tds">
+      <div class="td"><b>Time</b><span>Less time near it</span></div>
+      <div class="td"><b>Distance</b><span>More distance from it</span></div>
+      <div class="td"><b>Shielding</b><span>Something between you and it</span></div>
+    </div>
+  </section>
+
+  <!-- 4 -->
+  <section id="door">
+    <p class="sec-num">04 &nbsp;What the five share</p>
+    <h2>The patient is the scene</h2>
+    <div class="col">
+      <p class="lede">They reach your emergency department before anyone calls you.</p>
+      <p>Whatever the letter, the first minutes at the door follow the same four moves. Tap each one as you would run it.</p>
+    </div>
+    <ol class="door" id="doorList">
+      <li><button type="button">Protect yourself</button><div class="why">Appropriate personal protective equipment goes on before contact. A contaminated or unprotected clinician becomes a second patient and takes a team member out of the response.</div></li>
+      <li><button type="button">Control the door</button><div class="why">One way in. Patients from an incident are held and assessed outside the clinical area so contamination stays outside. Self-presenting patients will not wait for instructions.</div></li>
+      <li><button type="button">Undress the patient</button><div class="why">Removing clothing is the first and simplest step of decontamination. Bag and label it, and keep it with the patient's records.</div></li>
+      <li><button type="button">Treat the syndrome</button><div class="why">Support airway, breathing and circulation, and treat the clinical picture in front of you. The confirmed agent name often arrives late, or wrong.</div></li>
+    </ol>
+    <div class="progress" aria-hidden="true"><i id="doorBar"></i></div>
+    <button type="button" class="reset" id="doorReset">Reset</button>
+  </section>
+
+  <!-- 5 -->
+  <section id="check">
+    <p class="sec-num">05 &nbsp;Check yourself</p>
+    <h2>Five patients, five letters</h2>
+    <p class="col">Pick the best answer. The explanation opens after your choice.</p>
+    <div id="quiz"></div>
+    <p class="score" id="score"></p>
+
+    <div class="call">
+      Suspected poisoning? Call your national emergency number.
+      <small>In Saudi Arabia, poisoning enquiries: MOH 937.</small>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div style="margin-bottom:8px"><strong>What is hazmat? CBRNE</strong> &nbsp;&middot;&nbsp; MENATOX Saudi Arabia National Chapter &nbsp;&middot;&nbsp; <a href="https://menatox.org">menatox.org</a></div>
+    <div style="margin-bottom:8px">Prepared by <strong>Dr Rwan Eskindrani</strong></div>
+    Educational material for qualified clinicians. It does not replace your hospital's hazmat or major-incident plan, national guidance, or consultation with a medical toxicologist.
+  </div>
+</footer>
+
+<script>
+(function(){
+  var DATA = [
+    {L:"C", w:"Chemical",
+     t:"Nerve agents make the news. Chlorine, ammonia and hydrogen sulfide make the patients.",
+     f:["Fast onset","Industrial releases are the common source"],
+     r:"Treat the toxidrome you see, not the name you are told."},
+    {L:"B", w:"Biological",
+     t:"Bacteria, viruses, toxins. Days of incubation. Patients trickle in and nobody says \u201cattack\u201d.",
+     f:["Delayed onset","Arrives as a cluster, not a crowd"],
+     r:"Recognise the unusual cluster. Report it to public health."},
+    {L:"R", w:"Radiological",
+     t:"A lost industrial radiography source, a contaminated worker, a dirty bomb.",
+     f:["Exposed \u2260 contaminated","Time \u00b7 distance \u00b7 shielding"],
+     r:"Exposed is not contaminated. Time, distance, shielding."},
+    {L:"N", w:"Nuclear",
+     t:"Blast, heat and radiation together, at a scale no single hospital absorbs.",
+     f:["Combined injury","National-level planning"],
+     r:"Planned at the national level. Recognised at the bedside."},
+    {L:"E", w:"Explosive",
+     t:"The most common of the five, and the vehicle for the other four.",
+     f:["Most common","May carry C, B, R or N"],
+     r:"Blast injury first. Then ask what was in the device."}
+  ];
+  var tabs = document.querySelector("#explorer .tabs");
+  var cur = 0;
+  DATA.forEach(function(d,i){
+    var b = document.createElement("button");
+    b.type = "button"; b.setAttribute("role","tab"); b.id = "tab"+i;
+    b.innerHTML = '<span class="L">'+d.L+'</span><span class="w">'+d.w+'</span>';
+    b.addEventListener("click", function(){ show(i); });
+    tabs.appendChild(b);
+  });
+  function show(i){
+    cur = (i+DATA.length)%DATA.length;
+    var d = DATA[cur];
+    document.getElementById("pBig").textContent = d.L;
+    document.getElementById("pWord").textContent = d.w;
+    document.getElementById("pText").textContent = d.t;
+    document.getElementById("pRule").textContent = d.r;
+    document.getElementById("pFacts").innerHTML = d.f.map(function(x){return "<span>"+x+"</span>";}).join("");
+    document.getElementById("pos").textContent = (cur+1)+" of "+DATA.length;
+    Array.prototype.forEach.call(tabs.children, function(b,j){ b.setAttribute("aria-selected", j===cur ? "true":"false"); });
+  }
+  document.getElementById("prev").addEventListener("click", function(){ show(cur-1); });
+  document.getElementById("next").addEventListener("click", function(){ show(cur+1); });
+  tabs.addEventListener("keydown", function(e){
+    if(e.key==="ArrowRight"){ show(cur+1); tabs.children[cur].focus(); }
+    if(e.key==="ArrowLeft"){ show(cur-1); tabs.children[cur].focus(); }
+  });
+  Array.prototype.forEach.call(document.querySelectorAll(".letters a"), function(a){
+    a.addEventListener("click", function(){ show(parseInt(a.getAttribute("data-go"),10)); });
+  });
+  show(0);
+
+  // door checklist
+  var items = document.querySelectorAll("#doorList li");
+  function bar(){
+    var n = document.querySelectorAll("#doorList li.done").length;
+    document.getElementById("doorBar").style.width = (n/items.length*100)+"%";
+  }
+  Array.prototype.forEach.call(items, function(li){
+    li.querySelector("button").addEventListener("click", function(){
+      li.classList.add("done");
+      li.classList.toggle("open");
+      bar();
+    });
+  });
+  document.getElementById("doorReset").addEventListener("click", function(){
+    Array.prototype.forEach.call(items, function(li){ li.classList.remove("done","open"); });
+    bar();
+  });
+
+  // quiz
+  var Q = [
+    {tag:"Case 1",
+     s:"After a release at an industrial site, a worker arrives with pinpoint pupils, heavy secretions, wheeze and a slow pulse. The supervisor on the phone insists it was chlorine.",
+     o:["Manage as chlorine inhalation only, as reported","Treat the cholinergic toxidrome in front of you","Wait for laboratory confirmation of the agent"],
+     a:1,
+     e:"Treat the toxidrome you see, not the name you are told. The picture is cholinergic, whatever the label on the phone call. Early identification of an agent is often wrong."},
+    {tag:"Case 2",
+     s:"Over three days, several previously well adults from the same district present with a similar, unusual severe illness. Nobody has mentioned an incident.",
+     o:["Treat each case on its own merits and move on","Recognise the unusual cluster and report it to public health","Close the department to new admissions"],
+     a:1,
+     e:"Biological events arrive slowly: days of incubation, patients trickling in, and nobody says \u201cattack\u201d. The emergency department sees the cluster first. Report it to public health."},
+    {tag:"Case 3",
+     s:"An industrial radiographer spent time near an unshielded source. He has changed into clean clothes and has no radioactive material on him. Staff are reluctant to approach.",
+     o:["He is exposed, not contaminated: no hazard to staff","He must be fully decontaminated before any assessment","Isolate him until a radiation survey of the whole department"],
+     a:0,
+     e:"Exposed is not contaminated. Irradiation without material on or in the body leaves nothing to spread. Assess and treat him normally while the dose assessment proceeds."},
+    {tag:"Case 4",
+     s:"Casualties arrive from an explosion at a warehouse. One has penetrating chest injuries and is hypotensive.",
+     o:["Hold all casualties until the device is analysed","Manage the blast injury first, then ask what was in the device","Start empirical antidotes for nerve agents"],
+     a:1,
+     e:"Explosives are the most common of the five and the vehicle for the other four. Blast injury first. Then ask what was in the device, because it may have carried a chemical, biological or radiological payload."},
+    {tag:"Case 5",
+     s:"A family walks into triage coughing, with eye irritation and a strong smell on their clothes. No one has called ahead.",
+     o:["Bring them straight into resus","Protect yourself, control the door, undress them, then treat","Send them home with advice to shower"],
+     a:1,
+     e:"The patient is the scene. They reach you before anyone calls. Protect yourself, control the door, undress the patient, treat the syndrome."}
+  ];
+  var box = document.getElementById("quiz"), answered = 0, right = 0;
+  Q.forEach(function(q){
+    var d = document.createElement("div"); d.className = "q";
+    d.innerHTML = '<div class="tag">'+q.tag+'</div><p class="stem">'+q.s+'</p><div class="opts"></div><div class="exp"></div>';
+    var opts = d.querySelector(".opts"), exp = d.querySelector(".exp");
+    q.o.forEach(function(t,i){
+      var b = document.createElement("button"); b.type = "button"; b.className = "opt"; b.textContent = t;
+      b.addEventListener("click", function(){
+        var all = opts.querySelectorAll("button");
+        Array.prototype.forEach.call(all, function(x){ x.disabled = true; });
+        all[q.a].classList.add("right");
+        if(i !== q.a){ b.classList.add("wrong"); } else { right++; }
+        exp.innerHTML = "<strong>"+(i===q.a ? "Correct. " : "Not quite. ")+"</strong>"+q.e;
+        exp.classList.add("show");
+        answered++;
+        if(answered === Q.length){
+          document.getElementById("score").textContent = "You scored "+right+" of "+Q.length+".";
+        }
+      });
+      opts.appendChild(b);
+    });
+    box.appendChild(d);
+  });
+})();
+</script>
+</body>
+</html>
+
+</body></html>
